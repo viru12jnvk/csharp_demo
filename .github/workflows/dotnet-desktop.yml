@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest 
     env:
-      Solution_Name: GenericProgramming/GenericProgramming.sln                # Replace with your solution name, i.e. MyWpfApp.sln.
+      Solution_Name: LINQ/LINQ.sln                # Replace with your solution name, i.e. MyWpfApp.sln.
       Test_Project_Path: your-test-project-path                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
       Wap_Project_Directory: your-wap-project-directory-name    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
       Wap_Project_Path: your-wap-project-path                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
